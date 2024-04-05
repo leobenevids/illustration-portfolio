@@ -1,0 +1,6 @@
+Navbar
+Quem sou
+Meu trabalho
+Contato
+
+fazer mobile first

@@ -2,8 +2,9 @@ import { Box } from "@mui/material";
 import React from "react";
 
 const Services = ({ ...props }) => {
+  const { idSelector, bgColor } = props;
   return (
-    <Box id={props.idSelector} sx={{ backgroundColor: "yellow", height: "100vh" }}>
+    <Box id={idSelector} sx={{ backgroundColor: bgColor, height: "100vh" }}>
       Services
     </Box>
   );

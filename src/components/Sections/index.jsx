@@ -11,21 +11,21 @@ export const sections = [
   {
     label: "home",
     icon: <HomeIcon color="lightGreen" fontSize="small" />,
-    component: <Home idSelector="home" />,
+    component: <Home idSelector="home" bgColor="white" />,
   },
   {
     label: "about",
     icon: <InfoIcon color="lightGreen" fontSize="small" />,
-    component: <About idSelector="about" />,
+    component: <About idSelector="about" bgColor="red" />,
   },
   {
     label: "services",
     icon: <DrawIcon color="lightGreen" fontSize="small" />,
-    component: <Services idSelector="services" />,
+    component: <Services idSelector="services" bgColor="yellow" />,
   },
   {
     label: "contact",
     icon: <ContactsIcon color="lightGreen" fontSize="small" />,
-    component: <Contact idSelector="contact" />,
+    component: <Contact idSelector="contact" bgColor="blue" />,
   },
 ];
